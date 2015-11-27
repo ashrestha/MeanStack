@@ -1,0 +1,28 @@
+{
+  "name": "meanapp",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Anil Shrestha <jesnilshrestha04@hotmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "AngularJS-Toaster": "toaster#~0.4.16",
+    "toastr": "~2.1.2",
+    "angular": "~1.4.8",
+    "angular-resource": "~1.4.8",
+    "angular-route": "~1.4.8"
+  }
+}
