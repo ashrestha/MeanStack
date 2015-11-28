@@ -5,14 +5,15 @@ block main-content
     .container
       .navbar-header
         a.navbar-brand(href="/") MeanApp
-          h6 -A Mean Stack App
+          h6 -Mean Stack App
       .navbar-collapse.collapse
         ul.nav.navbar-nav
           li
             a(href="/") Home
-          div(ng-include="'/partials/account/navbar-login'")
-   section.content
-   div(ng-view)
+        div(ng-include="'/partials/account/navbar-login'")
 
-   footer.container.text-center
-   p&copy; 2015 MeanAppCrop International Ltd.
+  section.content
+    div(ng-view)
+
+  footer.container.text-center
+    p &copy; 2015 MeanAppCorp International Ltd.
