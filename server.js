@@ -37,8 +37,8 @@ db.once('open', function callback(){
 });
 
 
-app.get('/partials/:partialPath', function(req, res){
-	res.render('partials/' + req.params.partialPath);
+app.get('/partials/*', function(req, res){
+	res.render('../../public/app/' + req.params[0]);
 });
 
 
