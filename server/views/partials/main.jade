@@ -1,2 +1,10 @@
-h1 This is a Partial
-h2 {{ myVar }}
+.containter
+	.jumbotron
+		h1 MeanApp
+		p This is a test app to practice MEAN stack using Heroku for the deployment. This is kind'a fun. It's 3 am already and I am still on it.
+
+	.row
+		.col-md-6
+			div(ng-include="'/partials/featured-courses'")
+		.col-md-6
+			div(ng-include="'/partials/new-courses'")
